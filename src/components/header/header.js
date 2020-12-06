@@ -5,7 +5,7 @@ import headerStyles  from "./header.module.css";
 const Header = (props) => {
 
   const menuItems = [
-    {link: "#personalstatement", name: "Personal Statement"},
+    {link: "#aboutme", name: "About Me"},
     {link: "#skills", name: "Skills"},
     {link: "#education", name: "Education"},
     {link: "#workexperience", name: "Work Experience"},
@@ -31,7 +31,6 @@ const Header = (props) => {
   
   useEffect(() => {
     const cursorid = setInterval(() => {
-      console.log(visible);
       if(visible)
         setVisible(false);
       else
@@ -42,18 +41,20 @@ const Header = (props) => {
 
 
   return (
-    <header className={headerStyles.header}>
-      <h1 className={headerStyles.headername}>{"> " + display_name}<span className={visible ? headerStyles.cursor : headerStyles.cursorhidden }>|</span></h1>
-      <ul className={headerStyles.headerlinks}>
-      { menuItems.map(item => (
-        <li key={item.name} className={headerStyles.headerlink}>
-        <a href={item.link}>
-          {item.name}
-        </a>
-        </li>
-      ))}
-      </ul>
-    </header>
+    <div className={headerStyles.container}>
+      <header className={headerStyles.header}>
+        <h1 className={headerStyles.headername}>{"> " + display_name}<span className={visible ? headerStyles.cursor : headerStyles.cursorhidden }>|</span></h1>
+        <ul className={headerStyles.headerlinks}>
+        { menuItems.map(item => (
+          <li key={item.name} className={headerStyles.headerlink}>
+          <a href={item.link}>
+            {item.name}
+          </a>
+          </li>
+        ))}
+        </ul>
+      </header>
+    </div>
   )
 }
 

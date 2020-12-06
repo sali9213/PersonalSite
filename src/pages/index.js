@@ -4,6 +4,7 @@ import Header from "../components/header/header"
 import PersonalStatement from "../components/personal-statement/personal-statement";
 import Skills from "../components/skills/skills";
 import Section from "../components/section/section";
+import Experience from "../components/experience/experience";
 
 
 const IndexPage = () => (
@@ -18,6 +19,9 @@ const IndexPage = () => (
     </Section>
     <Section title="Education">
       <Education></Education>
+    </Section>
+    <Section title="Experience">
+      <Experience></Experience>
     </Section>
     </div>
   </div>

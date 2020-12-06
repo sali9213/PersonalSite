@@ -1,0 +1,61 @@
+
+{"experienceData": [
+  {
+    "Position": ".NET Developer",
+    "Company Name": "Humanitarian Operations",
+    "City": "London",
+    "Country": "England",
+    "Company Description": "Non-profit organisation developing games and applications for educational purposes",
+    "Bullet points": [
+      "Developed a RESTful API using C# and .NET Core",
+      "Designed and implemented database using MSSQL",
+      "Deployed API to AWS",
+      "Managed team of 3 developers"
+    ],
+    "From": "03/2020",
+    "To": "12/2020"
+  },
+  {
+    "Position": "Student Consultant",
+    "Company Name": "Westpac",
+    "City": "Sydney",
+    "Country": "Australia",
+    "Company Description": "Big 4 Australian bank",
+    "Bullet points": [
+      "Researched best opportunities to capitalise on AI to maximise benefits for stakeholders",
+      "Presented research to Westpac executives",
+      "Worked alongside students from various disciplines"
+    ],
+    "From": "03/2019",
+    "To": "06/2019"
+  },
+  {
+    "Position": "Software Engineer Intern",
+    "Company Name": "Technosys Inc",
+    "City": "Sydney",
+    "Country": "Australia",
+    "Company Description": "Consulting and Software Development company that specializes in system analysis, design and implementation",
+    "Bullet points": [
+      "Developed ERP system using C# and .NET",
+      "Embraced agile development methodology",
+      "Developed customer feedback app for restaurants using React-Native (JavaScript)",
+      "Involved in workshops to develop time management and teamwork skills"
+    ],
+    "From": "11/2018",
+    "To": "02/2019"
+  },
+  {
+    "Position": "Android Developer Intern",
+    "Company Name": "MyCart",
+    "City": "Karachi",
+    "Country": "Pakistan",
+    "Company Description": "Well renowned e-commerce store in Pakistan.",
+    "Bullet points": [
+      "Learned Android mobile application development using Android Studio and Java",
+      "Worked on MyCart android application to add features and fix bugs"
+    ],
+    "From": "11/2017",
+    "To": "02/2018"
+  }
+] 
+}

@@ -52,3 +52,11 @@ a:hover{
 .cursorhidden{
   visibility: hidden;
 }
+
+.container{
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  padding: 0;
+}

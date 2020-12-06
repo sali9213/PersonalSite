@@ -26,21 +26,21 @@ const Skills = () => {
         <div>
           <ul>
             {column1.map(item => (
-              <li key={item}>{item}</li>
+              <li key={item} className={skillsStyles.skill}>{item}</li>
             ))}
           </ul>
         </div>
         <div>
           <ul>
             {column2.map(item => (
-              <li key={item}>{item}</li>
+              <li key={item} className={skillsStyles.skill}>{item}</li>
             ))}
           </ul>
         </div>
         <div>
           <ul>
             {column3.map(item => (
-              <li key={item}>{item}</li>
+              <li key={item} className={skillsStyles.skill}>{item}</li>
             ))}
           </ul>
         </div>
