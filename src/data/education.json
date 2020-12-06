@@ -1,0 +1,17 @@
+{
+  "university_name": "University of Sydney",
+  "location": {
+    "city": "Sydney",
+    "country": "Australia"
+  },
+  "degree_title": "Bachelor of Engineering Honours (Software)",
+  "grade": "Upper Second Class Honours",
+  "start_date": {
+    "month": "07",
+    "year": "2015"
+  },
+  "end_date": {
+    "month": "11",
+    "year": "2019"
+  }
+}

@@ -1,0 +1,54 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.header h1{
+  font-size: 300%;
+  color: #00ff0d;
+  /* font-family: monaco; */
+}
+
+.headername{
+  flex-grow: 1;
+}
+
+.headerlinks{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 800px;
+  width: 100%;
+}
+
+.headerlink{
+  margin: auto 0;
+  list-style-type: none;
+  flex-grow: 1;
+  text-align: end;
+  font-size: 14pt;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 2s;
+}
+
+a:hover{
+  color: #00ff0d;
+  transition: 1s;
+}
+
+.cursor{
+  background-color: white;
+  color: white;
+}
+
+.cursorhidden{
+  visibility: hidden;
+}
