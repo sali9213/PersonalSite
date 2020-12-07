@@ -8,7 +8,7 @@ const Experience = () => {
     <div>
       {experienceData.map((item, index) => (
         <div key={index}>
-          <h3>{item["Company Name"]}</h3>
+          <h3>{item["Company Name"] + " - "  + item["City"] + ", " + item["Country"]}</h3>
           <p>
             <i>{item["Company Description"]}</i>
           </p>

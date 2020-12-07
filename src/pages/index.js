@@ -11,18 +11,18 @@ const IndexPage = () => (
   <div>
   <Header></Header>
     <div className="main-body">
-    <Section title="About Me">
-      <PersonalStatement></PersonalStatement>
-    </Section>
-    <Section title="Skills">
-      <Skills></Skills>
-    </Section>
-    <Section title="Education">
-      <Education></Education>
-    </Section>
-    <Section title="Experience">
-      <Experience></Experience>
-    </Section>
+      <Section title="About Me">
+        <PersonalStatement></PersonalStatement>
+      </Section>
+      <Section title="Skills">
+        <Skills></Skills>
+      </Section>
+      <Section title="Education">
+        <Education></Education>
+      </Section>
+      <Section title="Experience">
+        <Experience refs="workexperience"></Experience>
+      </Section>
     </div>
   </div>
 )

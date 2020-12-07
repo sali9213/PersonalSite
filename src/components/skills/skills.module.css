@@ -1,5 +1,20 @@
 .skill {
   list-style-type: none;
-  margin: 2% auto;
+  margin: 0 auto;
   text-align: center;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+.grid{
+  max-width: 60%;
+}
+
+@media only screen and (max-width: 1200px){
+  .grid
+  {
+    max-width: 100%;
+  }
 }

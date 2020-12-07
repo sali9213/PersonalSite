@@ -1,8 +1,8 @@
 html {
-  background-color: black;
+  background-color: white;
   /* background-color: white; */
   font-size: 1em;
-  color: white;
+  color: black;
   font-family: sans-serif;
   font-weight: 200;
   line-height: 24px;
@@ -10,14 +10,18 @@ html {
 
 h2, h1 {
   font-family: monaco;
-  color: #00ff0d;
+  color: #50a9fc;
 }
 .main-body {
   padding: 0 8%;
-  /* padding-top: 7em; */
-  margin: 0 0;
+  padding-top: 150px;
 }
 
 h2 {
   font-size: 200%;
+}
+
+body{
+  margin: 0 auto;
+  font-weight: 1;
 }

@@ -20,8 +20,10 @@ const Skills = () => {
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
-          gridGap: 50,
+          gridGap: 10,
         }}
+
+        className={skillsStyles.grid}
       >
         <div>
           <ul>
