@@ -6,12 +6,6 @@
   },
   "degree_title": "Bachelor of Engineering Honours (Software)",
   "grade": "Upper Second Class Honours",
-  "start_date": {
-    "month": "07",
-    "year": "2015"
-  },
-  "end_date": {
-    "month": "11",
-    "year": "2019"
-  }
+  "from": "2015",
+  "to": "2019"
 }

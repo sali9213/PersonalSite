@@ -1,14 +1,20 @@
 import React from "react"
 import experienceStyles from "./experience.module.css"
-import { experienceData }  from "../../data/experience.json";
+import { experienceData } from "../../data/experience.json"
 
 const Experience = () => {
-  console.log("Skills: ", experienceData);
-  return(
+  return (
     <div>
       {experienceData.map((item, index) => (
         <div key={index} className={experienceStyles.experiencecontainer}>
-          <h3>{item["Company Name"] + " - "  + item["City"] + ", " + item["Country"]}</h3>
+          <h3 className={experienceStyles.jobTitle}>
+            {item["Company Name"] +
+              " - " +
+              item["City"] +
+              ", " +
+              item["Country"]}
+          </h3>
+          <p className={experienceStyles.dates}>{item.From} - {item.To}</p>
           <p>
             <i>{item["Company Description"]}</i>
           </p>
@@ -27,4 +33,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
+export default Experience

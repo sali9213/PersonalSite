@@ -12,11 +12,12 @@ const IndexPage = () => (
   <Header></Header>
     <div className="main-body">
       <Section title="About Me">
+      <a id="aboutme"></a>
         <PersonalStatement></PersonalStatement>
       </Section>
-      <Section title="Skills">
+      {/* <Section title="Skills">
         <Skills></Skills>
-      </Section>
+      </Section> */}
       <Section title="Education">
         <Education></Education>
       </Section>
