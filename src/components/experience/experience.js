@@ -8,7 +8,7 @@ const Experience = () => {
       {experienceData.map((item, index) => (
         <div key={index} className={experienceStyles.experiencecontainer}>
           <h3 className={experienceStyles.jobTitle}>
-            {item["Company Name"] +
+            {item["Position"] + " at " + item["Company Name"] +
               " - " +
               item["City"] +
               ", " +
