@@ -14,7 +14,9 @@ const Experience = () => {
               ", " +
               item["Country"]}
           </h3>
-          <p className={experienceStyles.dates}>{item.From} - {item.To}</p>
+          <p className={experienceStyles.dates}>
+            {item.From} - {item.To}
+          </p>
           <p>
             <i>{item["Company Description"]}</i>
           </p>
