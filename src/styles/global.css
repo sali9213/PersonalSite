@@ -9,13 +9,13 @@ html {
   background-color: #303030;
   font-size: 1em;
   color: #ffffff;
-  font-family: Lato;
+  font-family: Lato, sans-serif, monospace;
   font-weight: 200;
   line-height: 24px;
 }
 
 h2, h1 {
-  font-family: monaco, monospace;
+  font-family: monaco, sans-serif, monospace;
   color: #59afff;
 }
 .main-body {
