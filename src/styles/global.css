@@ -1,14 +1,21 @@
+@font-face {
+  font-family: 'Monaco';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Monaco'), url('../fonts/Monaco/Monaco.woff') format('woff');
+  }
+
 html {
   background-color: #303030;
   font-size: 1em;
   color: #ffffff;
-  font-family: Avenir-Medium;
+  font-family: Lato;
   font-weight: 200;
   line-height: 24px;
 }
 
 h2, h1 {
-  font-family: monaco;
+  font-family: monaco, monospace;
   color: #59afff;
 }
 .main-body {
